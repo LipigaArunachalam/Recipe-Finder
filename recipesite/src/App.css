@@ -1,0 +1,71 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff8f8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a, nav button, nav span {
+  color: #f1eaea;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Logout button styling */
+nav button {
+  background-color: #ff4d4d; /* Red background for logout */
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Search form styling */
+.search-form {
+  margin: 20px 0;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}
+
+/* Recipe grid styling */
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
